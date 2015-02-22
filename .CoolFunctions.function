@@ -1,0 +1,199 @@
+#dirsz - finds directory sizes and lists them for the current directory
+dirsize ()
+{
+du -shx * .[a-zA-Z0-9_]* 2> /dev/null | \
+egrep '^ *[0-9.]*[MG]' | sort -n > /tmp/list
+egrep '^ *[0-9.]*M' /tmp/list
+egrep '^ *[0-9.]*G' /tmp/list
+rm /tmp/list
+}
+
+#drsz - finds directory sizes and lists them for the current directory
+drsz ()
+{
+du -shx * .[a-zA-Z0-9_]* 2> /dev/null | \
+egrep '^ *[0-9.]*[MG]' | sort -n > /tmp/list
+egrep '^ *[0-9.]*M' /tmp/list
+egrep '^ *[0-9.]*G' /tmp/list
+rm /tmp/list
+}
+
+#myip - finds your current IP if your connected to the internet
+myip ()
+{
+lynx -dump -hiddenlinks=ignore -nolist http://checkip.dyndns.org:8245/ | awk '{ print $4 }' | sed '/^$/d; s/^[ ]*//g; s/[ ]*$//g' 
+}
+
+#clock - A bash clock that can run in your terminal window.
+clock ()
+{
+while true;do clear;echo "===========";date +"%r";echo "===========";sleep 1;done
+}
+
+#netinfo - shows network information for your system
+netinfo ()
+{
+echo "--------------- Network Information ---------------"
+/sbin/ifconfig | awk /'inet addr/ {print $2}'
+/sbin/ifconfig | awk /'Bcast/ {print $3}'
+/sbin/ifconfig | awk /'inet addr/ {print $4}'
+/sbin/ifconfig | awk /'HWaddr/ {print $4,$5}'
+myip=`lynx -dump -hiddenlinks=ignore -nolist http://checkip.dyndns.org:8245/ | sed '/^$/d; s/^[ ]*//g; s/[ ]*$//g' `
+echo "${myip}"
+echo "---------------------------------------------------"
+}
+
+#shot - takes a screenshot of your current window
+shot ()
+{
+import -frame -strip -quality 75 "$HOME/$(date +%s).png"
+}
+
+#bu - Back Up a file. Usage "bu filename.txt" 
+bu () { cp $1 ${1}-`date +%Y%m%d%H%M`.backup ; }
+
+#Check spelling of a word - USAGE: spell word
+function spell()
+{
+echo $@ | ispell -a | sed -n -e '/^\&/p' -e '/^\#/p';
+}
+
+
+# Define a word - USAGE: define word
+function define()
+{
+lynx -dump "http://www.google.com/search?hl=en&q=define%3A+${1}&btnG=Google+Search" | grep -m 3 -w "*"\
+| sed 's/;/ -/g' | cut -d- -f1 > \ /tmp/templookup.txt
+if [[ -s /tmp/templookup.txt ]] ;then
+until ! read response
+do
+echo "${response}"
+done < /tmp/templookup.txt
+else
+echo "Sorry $USER, I can't find the term \"${1} \""
+fi
+rm -f /tmp/templookup.txt
+}
+
+
+# System Info
+function sysinfo()  
+{
+clear
+num_cpus=`cat /proc/cpuinfo | grep -c "model name"`
+machine_cpu=`cat /proc/cpuinfo | grep -m 1 "model name" | cut -d: -f2`
+machine_mhz=`cat /proc/cpuinfo | grep -m 1 "cpu MHz" | cut -d: -f2`
+machine_cpuinfo=`uname -mp`
+todays_date=`date +"%D %r"`
+machine_uptime=`uptime`
+machine_ram=`cat /proc/meminfo | grep -m 1 "MemTotal:" | cut -d: -f2 |  sed 's/^[ \t]*//'`
+machine_video=`lspci | grep -m 1 "VGA" | cut -d: -f3 |  sed 's/^[ \t]*//'`
+machine_eth_card=`lspci | grep -m 1 "Ethernet" | cut -d: -f3 |  sed 's/^[ \t]*//'`
+machine_audio_controller=`lspci | grep -m 1 "audio" | cut -d: -f3 |  sed 's/^[ \t]*//'`
+arch_damons=`grep "DAEMONS=" /etc/rc.conf `
+last_logins=`last | head`
+eth0info=`ifconfig eth0 | grep "inet addr:" | sed 's/inet addr/Local IP/g' | sed 's/^[ \t]*//;s/[ \
+\t]*$//'`
+
+echo "ARCH LINUX - Machine Information Script ver .10"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "DATE: $todays_date   MACHINE NAME: $HOSTNAME  "
+echo " "
+echo "Eth0: $eth0info"
+echo "ETHERNET CARD: $machine_eth_card"
+echo "CPU INFO: Qty=$num_cpus $machine_cpuinfo" 
+echo "VIDEO CARD: $machine_video"
+echo "AUDIO CONTROLLER: $machine_audio_controller"
+echo "RAM INFO: $machine_ram" 
+echo " "
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+route
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "DISK USAGE:"
+df -h
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "UPTIME: $machine_uptime"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "$arch_damons"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+}
+
+# Stock prices - can be called two ways. # stock novl  (this shows stock pricing)  #stock "novell"  (this way shows stock symbol for novell)
+stock ()
+{
+stockname=`lynx -dump http://finance.yahoo.com/q?s=${1} | grep -i ":${1})" | sed -e 's/Delayed.*$//'`
+stockadvise="${stockname} - delayed quote."
+declare -a STOCKINFO
+STOCKINFO=(` lynx -dump http://finance.yahoo.com/q?s=${1} | egrep -i "Last Trade:|Change:|52wk Range:"`)
+stockdata=`echo ${STOCKINFO[@]}`
+    if [[ ${#stockname} != 0 ]] ;then
+        echo "${stockadvise}"
+        echo "${stockdata}"
+            else
+            stockname2=${1}
+            lookupsymbol=`lynx -dump -nolist http://finance.yahoo.com/lookup?s="${1}" | grep -A 1 -m 1 "Portfolio" | grep -v "Portfolio" | \
+            sed 's/\(.*\)Add/\1 /'`
+                if [[ ${#lookupsymbol} != 0 ]] ;then
+                echo "${lookupsymbol}"
+                    else
+                    echo "Sorry $USER, I can not find ${1}."
+                fi
+    fi
+}
+
+
+#Translate a Word  - USAGE: translate house spanish  # See dictionary.com for available languages (there are many).
+translate ()
+{
+TRANSLATED=`lynx -dump "http://dictionary.reference.com/browse/${1}" | grep -i -m 1 -w "${2}:" | sed 's/^[ \t]*//;s/[ \t]*$//'`
+if [[ ${#TRANSLATED} != 0 ]] ;then
+    echo "\"${1}\" in ${TRANSLATED}"
+    else
+    echo "Sorry, I can not translate \"${1}\" to ${2}"
+fi
+}
+
+
+ext () {
+     if [ -f $1 ] ; then
+         case $1 in
+             *.tar.bz2)   tar xjf $1        ;;
+             *.tar.gz)    tar xzf $1     ;;
+             *.bz2)       bunzip2 $1       ;;
+             *.rar)       rar x $1     ;;
+             *.gz)        gunzip $1     ;;
+             *.tar)       tar xf $1        ;;
+             *.tbz2)      tar xjf $1      ;;
+             *.tgz)       tar xzf $1       ;;
+             *.zip)       unzip $1     ;;
+             *.Z)         uncompress $1  ;;
+             *.7z)        7z x $1    ;;
+             *)           echo "'$1' cannot be extracted via extract()" ;;
+         esac
+     else
+         echo "'$1' is not a valid file"
+     fi
+}
+
+#copy and go to dir
+cpg (){
+  if [ -d "$2" ];then
+    cp $1 $2 && cd $2
+  else
+    cp $1 $2
+  fi
+}
+
+#move and go to dir
+mvg (){
+  if [ -d "$2" ];then
+    mv $1 $2 && cd $2
+  else
+    mv $1 $2
+  fi
+}
+
+quiet (){
+  nohup $1 &>/dev/null &
+}
+complete -A command quiet
