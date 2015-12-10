@@ -13,11 +13,13 @@ append to the history file, don't overwrite it
 
 shopt -s histappend
 for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-
 HISTSIZE=50
+#set amount of entries in the history...
 HISTFILESIZE=50
-check the window size after each command and, if necessary,
-update the values of LINES and COLUMNS.
+#set amount of entries in the .history file for logging/future convenience vs. pottential privacy
+
+#check the window size after each command and, if necessary,
+#update the values of LINES and COLUMNS.
 
 shopt -s checkwinsize
 If set, the pattern "**" used in a pathname expansion context will
