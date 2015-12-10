@@ -2,23 +2,23 @@
 # file started by kjlw99 on 2-14-15 @ 1:46PM
 
 #reloads the .bashrc configuration script
-alias reload='. ~/.bashrc' 
+alias rld='. ~/.bashrc' 
 ###
 ##
 # Set emacs to always run as command line application
-alias emacs='emacs -nw'
+#alias emacs='emacs -nw'
 ###
 ##
 #
 # Set the default editor to vim.
-export EDITOR=vim
+#export EDITOR=vim
 ###
 ##
 # vim aliases
-alias vi=vim
-alias svi='sudo vi'
-alias vis='vim "+set si"'
-alias edit='vim'
+#alias vi=vim
+##alias svi='sudo vi'
+#alias vis='vim "+set si"'
+#alias edit='vim'
 ###
 ##
 # command usability feature aliases
