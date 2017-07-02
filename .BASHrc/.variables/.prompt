@@ -1,3 +1,27 @@
-# This file will control the configuration of the shell prompts.
+# Simpler prompt generated from bashrcgenerator.com on July 2, 2017
+
+# export PS1="\s-\v_\u_\d_\T_\W_\$?:\n\\$\[$(tput sgr0)\]"
+
+export PS1="\s-\v_\u_\d_\T_\W_\$?:\n{\!}[\#]\\$>"
+
+# \s == name of the shell
+# \v == shell-version
+# \u == user-name
+# \d == date(day of week, calendar month, & calendar number)
+# \T == time w/ seconds(HH:MM:SS)(12-hour)(t would == 24-hour)
+# \W == directory(base-name)
+#\$? == exit status of last command
+# \n == new-line character
+# \$ == current type of user $ == standard & # == root
+# unsure exactly what this part means: [$(tput sgr0)\]
+# underscores(_) & colon(:) are just my prefered seperation marks
+
+# a couple of good links on prompt customization:
+
+# https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+
+# https://www.digitalocean.com/community/tutorials/how-to-customize-your-bash-prompt-on-a-linux-vps
+
+# https://www.howtogeek.com/.../how-to-customize-and-colorize-your-bash-prompt/
 
 
