@@ -1,0 +1,7 @@
+# This file is the final pointer fule in the chain,
+# that will reference several variable settings files; like
+# the .prompt file for example.
+
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/.prompt ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/.prompt
+fi

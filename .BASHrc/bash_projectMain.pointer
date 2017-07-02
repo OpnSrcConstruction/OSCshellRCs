@@ -1,0 +1,8 @@
+# This file will be referenced by the standard .bashrc, and will 
+# reference several other sub-pointer files;
+# that will in turn reference files which will actually modify the 
+# shell settings.
+
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/variables.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/variables.pointer
+fi
