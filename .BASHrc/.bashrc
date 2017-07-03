@@ -7,3 +7,6 @@
 if [ -f ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer
 fi
+
+# mv -v ~/.bashrc ~/.bashrc.original && cp -v ~/OSCshellRCs/.BASHrc/.bashrc ~/
+# . ~/.bashrc
