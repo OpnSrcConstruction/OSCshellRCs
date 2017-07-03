@@ -1,0 +1,9 @@
+# A sub-pointer file for the .aliases folder, which will point to the
+# .FMaliases, & PKG_MGRs directories; as well as several other
+# alias files.
+
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer
+fi
+

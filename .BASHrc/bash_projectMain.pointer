@@ -6,3 +6,7 @@
 if [ -f ~/OSCshellRCs/.BASHrc/.variables/variables.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/.variables/variables.pointer
 fi
+ 
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/FMaliases.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/FMaliases.pointer
+fi

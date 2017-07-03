@@ -1,0 +1,7 @@
+# The final pointer in it's line. This pointer will point to the gnu file-management aliases, which
+# will include bookmarks & shortcuts for desktop/server GNU/Linux.
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.gnu.nav.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/.fm.gnu.nav.aliases
+fi
+

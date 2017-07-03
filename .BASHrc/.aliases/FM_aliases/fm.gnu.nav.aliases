@@ -1,0 +1,25 @@
+# file-system navigation
+alias up='cd ..'
+alias ..='cd ../..'
+alias ...='cd ../../..'
+alias ....='cd ../../../..'
+alias .....='cd ../../../../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+# list files/directories(Dos-mode)
+alias dir='ls'
+# display paths to system/user binaries/scripts.
+alias path='echo -e ${PATH//:/\\n}'
+# bookmarks to common locations
+alias dox='cd ~/Documents'
+alias pix='cd ~/Pictures'
+alias desk='cd ~/Desktop'
+alias down='cd ~/Downloads'
+alias vids='cd ~/Videos'
+alias audio='cd ~/Audio'
+alias pub='cd ~/Public'
+alias jb='cd ~/jb'
+alias key='cd /keybase/'
+alias driv='cd ~/kevin.j.lausen@gmail.com'
+alias Linux='cd /media/Linux'

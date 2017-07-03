@@ -40,7 +40,7 @@ if [ -f ~/.bashrc ]; then
 source ~/.CoolFunctions.function
 fi
 
-if [ -f ~/.bashrc ]; then
+if [ -f ~/.bash_aliases ]; then
 source ~/.bash_aliases
 fi
 
