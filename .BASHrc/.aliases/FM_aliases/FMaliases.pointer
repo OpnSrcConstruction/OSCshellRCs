@@ -2,6 +2,6 @@
 # will include bookmarks & shortcuts for desktop/server GNU/Linux.
 
 if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.gnu.nav.aliases ]; then
-    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/.fm.gnu.nav.aliases
+    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.gnu.nav.aliases
 fi
 
