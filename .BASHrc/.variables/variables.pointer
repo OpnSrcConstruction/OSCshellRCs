@@ -2,6 +2,10 @@
 # that will reference several variable settings files; like
 # the .prompt file for example.
 
+
+# Simple_prompt generated/modified from bashrcgenerator.
+
 if [ -f ~/OSCshellRCs/.BASHrc/.variables/.prompt ]; then
     . ~/OSCshellRCs/.BASHrc/.variables/.prompt
 fi
+
