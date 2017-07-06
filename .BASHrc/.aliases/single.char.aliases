@@ -1,0 +1,9 @@
+#single-letter aliases
+alias x='exit'
+alias s='sudo'
+alias c='clear'
+alias r='reset'
+alias h='history'
+alias j='jobs -l'
+###
+##

@@ -3,7 +3,19 @@
 # alias files.
 
 
-if [ -f ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer ]; then
-    . ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/FMaliases.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/FMaliases.pointer
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/nt.gnu.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/nt.gnu.aliases
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/single.char.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/single.char.aliases
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/youtube_dl.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/youtube_dl.aliases
 fi
 
