@@ -1,0 +1,64 @@
+# handfull of handy 2-3 charrecter git vcs aliases.
+# gc  == git clone
+# gf  == git fetch
+# gpl == git pull
+# gb  == git branch
+# gbr == git checkout -b
+# gs  == git status
+# gad == git add
+# grm == git rm
+# gct == git commit -a -m
+# gcm == git checkout master
+# gm  == git merge
+# gpu == git push 
+# glg == git log
+# gbd == git brranch -d
+
+# git clone <url.git> -- Downloads remote repository.
+alias gc='git clone'
+
+# git fetch -- Fetches changes, from an 
+# origin/<?branch> & attempts 2 merge.
+alias gf='git fetch'
+
+# git pull -- Gets changes from remote repo., but
+# doesn't attempt a merge.
+alias gpl='git pull'
+
+# git branch -- Checks available branches.
+alias gb='git branch' # optional <branchName> 2 create branch
+
+# git checkout -b -- Creates a branch and switches to it.
+alias gbr='git checkout -b'; # <branch-name>
+
+# git status -- Shows staged/un-staged changes.
+alias gs='git status'
+
+# git add -- Adds files to a stage,
+# to prepare for a commit action.
+alias gad='git add'
+
+# git rm -- Removes files frm a staged point.
+alias grm='git rm'
+
+# git commit -a -m --  Commits recent changes.
+alias gct='git commit -a -m'
+
+# git checkout master -- Moves the HEAD pointer,
+# to the master branch.
+alias gcm='git checkout master'
+
+# git merge -- Merges changes from named branch to
+# current branch.
+alias gm='git merge'
+
+# git log -- Shows an index log,
+# of the local repo.
+alias glg='git log'
+
+# git push -- Pushes local changes,
+# to the origin; & master branch by default.
+alias gpu='git push origin' # <master/branchName>
+
+# git branch -d -- Removes a local branch.
+alias gbd='git branch -d' # <branchName>
