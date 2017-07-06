@@ -1,0 +1,35 @@
+# list files/directories(Dos-mode)
+alias dir='ls'
+# create directories
+alias md='mkdir -p'
+alias mkdir='mkdir -pv'
+# deletion iteractively
+alias rm='rm -I --preserve-root'
+alias mv='mv -i'
+alias delete='rm'
+alias del='rm'
+# Create symbolic || hard links interactively
+alias ln='ln -i'
+# Directory/file size(usage) info. w/ grand total, in human readable format; for all files/directories.
+alias du='du -cha'
+#Count the number of files in current directory
+alias numF="echo $(ls -1 | wc -l)"
+#partition information
+alias df='df -H'
+alias mount='mount |column -t'
+###
+##
+# Permission aliases
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+alias root='sudo -i'
+alias su='sudo -i'
+alias reboot='sudo /sbin/reboot'
+# ls aliases from default Ubuntu 16.04
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+###
+##
+#
