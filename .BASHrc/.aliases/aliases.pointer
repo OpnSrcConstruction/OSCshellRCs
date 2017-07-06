@@ -19,3 +19,7 @@ if [ -f ~/OSCshellRCs/.BASHrc/.aliases/youtube_dl.aliases ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/youtube_dl.aliases
 fi
 
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/git.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/git.aliases
+fi
+
