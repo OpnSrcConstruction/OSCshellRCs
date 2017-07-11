@@ -13,6 +13,8 @@
 # gpu == git push 
 # glg == git log
 # gbd == git brranch -d
+# gd  == git diff
+# grh == git reset --hard <snapshotID>
 
 # git clone <url.git> -- Downloads remote repository.
 alias gc='git clone'
@@ -62,3 +64,11 @@ alias gpu='git push origin' # <master/branchName>
 
 # git branch -d -- Removes a local branch.
 alias gbd='git branch -d' # <branchName>
+
+# git diff -- Show changes between the working tree and the index or a tree, \
+# changes between the index and a tree, changes between two trees, \
+# changes between two blob objects, or changes between two files on disk.
+alias gd='git diff'
+
+# git reset --hard <referenceID> -- Hard-resets, to a previous snapshot of a point in time. 
+alias grh='git reset --hard' # <snapsotID>
