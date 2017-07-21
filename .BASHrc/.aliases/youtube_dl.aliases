@@ -8,5 +8,6 @@ alias ydS43@='youtube-dl -if 43 --playlist-start'
 #(webm)followed by video N + video URL.Use --playlist-end to specify ending video X 
 alias ydS18@='youtube-dl -if 18 --playlist-start'
 #(mpeg4_medium)followed by video N + video URL.Use --playlist-start @ X until end of playlist
+#(mpeg4)followed by video N + video URL.Use --playlist-start @ X until end of playlist
 alias ydS5@='youtube-dl -if 5 --playlist-start'
 #(flash)followed by video N + video URL.Use --playlist-end to specify ending video N#

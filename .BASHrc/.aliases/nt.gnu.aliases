@@ -2,8 +2,8 @@
 # Ping utility aliases
 alias fastping='ping -c 10 -s.2' #ping every tenth of a second#
 alias ping='ping -c 5' #stopping pings after 5 seconds
-alias pinGoo='ping -s.1 google.com'
-alias pinGo='ping -s.1 8.8.8.8'
+alias pinGoo='ping -s.5 google.com'
+alias pinGo='ping -s.5 8.8.8.8'
 # netstat utility alias.
 alias ports='netstat -tulanp' #show open ports on your system#
 # IPtables firewall shortcuts.
@@ -11,7 +11,7 @@ alias ipt='sudo /sbin/iptables'
 alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
 alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
 alias iptlistout='sudo /sbin/iptables -L OUTPUT -n -v --line-numbers'
-alias iptlistfw='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
+alias iptlistfwd='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
 alias firewall='iptlist'
 ###
 ##
@@ -23,5 +23,5 @@ alias nmE='nmcli -tpm nm enable'
 alias nmWi='nmcli -tpm nm wifi' 
 alias nmCls='nmcli -tpm con' 
 alias nmCup='nmcli -tpm con up id' 
-alias nmCudn='nmcli -tpm con down id'
+alias nmCdn='nmcli -tpm con down id'
 alias nmNew='nmcli -tpm dev wifi connect'

@@ -2,21 +2,21 @@
 alias dir='ls'
 # create directories
 alias md='mkdir -p'
-alias mkdir='mkdir -pv'
+alias mkdr='mkdir -pv'
 # deletion iteractively
-alias rm='rm -I --preserve-root'
-alias mv='mv -i'
-alias delete='rm'
+alias rmi='rm -I --preserve-root'
+alias mvi='mv -i'
+alias delete='rm -f' #use w/ caution
 alias del='rm'
 # Create symbolic || hard links interactively
-alias ln='ln -i'
+alias lni='ln -i'
 # Directory/file size(usage) info. w/ grand total, in human readable format; for all files/directories.
 alias du='du -cha'
 #Count the number of files in current directory
-alias numF="echo $(ls -1 | wc -l)"
+alias numF='echo $(ls -1 | wc -l)'
 #partition information
 alias df='df -H'
-alias mount='mount |column -t'
+alias mount='mount | column -t'
 ###
 ##
 # Permission aliases
@@ -25,7 +25,7 @@ alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 alias root='sudo -i'
 alias su='sudo -i'
-alias reboot='sudo /sbin/reboot'
+alias rbt='sudo /sbin/reboot'
 # ls aliases from default Ubuntu 16.04
 alias ll='ls -alF'
 alias la='ls -A'
