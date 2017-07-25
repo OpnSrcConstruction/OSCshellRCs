@@ -5,5 +5,11 @@ alias c='clear'
 alias r='reset'
 alias h='history'
 alias j='jobs -l'
+alias f='fish'
+alias b='byobu'
+alias z='zsh'
+alias t='tcsh'
+alias p='powershell'
+alias i='ipython3'
 ###
 ##
