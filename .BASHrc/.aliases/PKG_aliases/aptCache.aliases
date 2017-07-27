@@ -1,0 +1,9 @@
+
+alias showdeps='sudo apt-cache showpkg' #shows dependancy information#
+alias stats='sudo apt-cache stats' #shows the status of the package database#
+alias depends='sudo apt-cache depends' #displays the dependancies of a package#
+alias rdepends='sudo apt-cache rdepends' #displayes the reverse-dependancies of a package#
+alias search='sudo apt-cache search' #seach the cache of available packages#
+alias show='sudo apt-cache show -f' #Show's detailed package information#
+alias Asearch='sudo aptitude search' #searches for if a package is installed on your system#
+

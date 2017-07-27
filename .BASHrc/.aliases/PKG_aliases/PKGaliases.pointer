@@ -1,0 +1,11 @@
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/apt.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/apt.aliases
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/aptCache.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/aptCache.aliases
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/dpkg.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/dpkg.aliases
+fi

@@ -1,0 +1,12 @@
+alias Dins='dpkg -i' #installs an individual package or group of packages, without any dependency checking#
+# deprecated by the new apt -i <pkg> command that takes care of dependencies automatically
+alias Drm='sudo dpkg -r' #removes an individual .deb or group of .debs, w/o any dependency checking#
+alias Dpurge='sudo dpkg -p' #purges an individual .deb#
+alias unpack='sudo dpkg --unpack' #unpacks an uncompressed .deb#
+alias config='sudo dpkg --configure' #configure an unconfigured pacage#
+alias reconfA='sudo dpkg --reconfigure' #re-configure a packages initial wizzard#
+alias triggers='sudo dpkg --triggers-only' #processes the triggers for your package(s)#
+alias y2UP='sudo dpkg --yet-to-unpack' #shows uncompressed packages on your system#
+alias List='sudo dpkg-query -L' #list files installed by a package#
+alias LsInS='sudo dpkg-query -l' #list if a pkg is installed or not#
+alias Dprint='sudo dpkg-query -p' #prints a working description#

@@ -1,0 +1,14 @@
+alias upd='sudo apt update' #updates the systems available repository software#
+alias Upd='sudo apt update && sudo apt upgrade' #single command update#
+alias UpD='sudo apt update && sudo apt dist-upgrade' #single command full update#
+alias UpDy='sudo apt update && sudo apt dist-upgrade -y' #forcefully single command full update#
+alias fix='sudo apt-get -f install' #fix dependency issues#
+alias inst='sudo apt install' #Installs software & needed dependencies#
+alias addR='sudo add-apt-repository' #add 3rd party repository#
+alias instaly='sudo apt install -y' #force install application#
+alias remove='sudo apt remove' #removes an application and dependencies#
+alias purge='sudo apt-get purge' #uninstall a package & it's .config files#
+alias check='sudo apt-get check' #check for broken dependencies#
+alias download='sudo apt-get download' #downloads the .deb from the on-line repositories to the current working directory#
+alias clean='sudo apt-get clean' #completely clears the package cache#
+alias Aclean='sudo apt-get autoclean' #cleans all outdated .debs from the package cache#
