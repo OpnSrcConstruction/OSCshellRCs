@@ -1,0 +1,3 @@
+if [ -f ~/OSCshellRCs/.BASHrc/.functions/Ctransfer.function ]; then
+    . ~/OSCshellRCs/.BASHrc/.functions/Ctransfer.function
+fi

@@ -1,0 +1,33 @@
+function Ctransfer
+{
+echo 'Help me, help you; by giving me a few details about your intentions'
+echo
+echo 'Step-One:'
+echo 'Which directory would you like to start in?(default=''.'' current)'
+read -p 'base-directory: ' BDIR
+echo
+echo 'Step-Two:'
+echo 'What file-types would you like to move?'
+echo 'Please type a 3-4 character extension, of the file type you want to bulk collect>transfer.'
+echo 'Example: pdf/mobi'
+read -p 'file/media-type(extension): ' EXT
+echo
+echo 'Step-Three:'
+echo 'Would you like to copy or cut those files into their new location?'
+echo 'Default: cp'
+read -p 'cp|mv(default=cp): ' OPERATION
+echo
+echo 'Step-Four:'
+echo 'Where would you like the files to go?'
+echo 'Default location is a tmp directory, in the current directory. \n
+If tmp does not exist, then it will be created prior to the find-mv|cp operation.'
+read -p 'Destination-DIRectory(default=./tmp/): ' DDIR
+echo
+echo 'Please confirm you want to take all of the $EXT files from $BDIR(& sub-directories) and $OPERATION them into the $DDIR Directory.'
+read -p 'y|n(n): ' $CONFIRM
+echo
+if [ $CONFIRM -eq y ]
+then "find $BDIR -type f -name '*$EXT' -exec $OPERATION {} $DDIR \;"
+else exit
+fi
+}

@@ -1,0 +1,500 @@
+youtube-dl -if 18 https://www.youtube.com/watch?v=OBnmcZoFu1E&list=PL3D3E46127C2DCD7D&index=28
+youtube-dl -if 18 https://www.youtube.com/watch?v=Pn2x3Z7FKZA&list=PL3D3E46127C2DCD7D&index=19
+youtube-dl -if 18 https://www.youtube.com/watch?v=Pn2x3Z7FKZA&list=PL3D3E46127C2DCD7D&index=19
+youtube-dl -if 18 https://www.youtube.com/watch?v=Nsk5FoVcUNM&list=PL3D3E46127C2DCD7D&index=4
+youtube-dl -if 18 https://www.youtube.com/watch?v=RbZYnr90fV8&list=PL3D3E46127C2DCD7D&index=6
+youtube-dl -if 18 https://www.youtube.com/watch?v=a5RbO5YKAPA&list=PL3D3E46127C2DCD7D&index=12
+youtube-dl -if 18 https://www.youtube.com/watch?v=a5RbO5YKAPA&list=PL3D3E46127C2DCD7D&index=12
+youtube-dl -if 18 https://www.youtube.com/watch?v=45Wat2mB9Vk&list=PL3D3E46127C2DCD7D&index=18
+youtube-dl -if 18 https://www.youtube.com/watch?v=45Wat2mB9Vk&list=PL3D3E46127C2DCD7D&index=18
+youtube-dl -if 18 https://www.youtube.com/watch?v=a5RbO5YKAPA&list=PL3D3E46127C2DCD7D&index=12
+youtube-dl -if 18 https://www.youtube.com/watch?v=a9gf3GHnalA&list=PL3D3E46127C2DCD7D&index=53
+youtube-dl -if 18 https://www.youtube.com/watch?v=BixeKmlKOJc&list=PL3D3E46127C2DCD7D&index=3&t=1174s
+youtube-dl -if 18 https://www.youtube.com/watch?v=hTKGD6Y2mDw&list=PL3D3E46127C2DCD7D&index=7
+youtube-dl -if 18 https://www.youtube.com/watch?v=A5-8y0DgTC0
+l
+rm BEARDED\ DRAGON\ -\ Finally\ Caught\ One\!-A5-8y0DgTC0.mp4.part 
+python3
+x
+l
+rename -v 's/.720p.BluRay.x265//' *
+l
+x
+echo $PATH
+ipython3
+ipython3
+ipython3 --version
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+sudo apt autoremove 
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt update
+sudo apt-get install sublime-text
+killall plank 
+cd scripts/
+cd Python/
+l
+unzip 691a9849d6f6ac21bf952283af5d5574-a2cdb7d9d4c2ca9c1180a256f5a804eb5f68391c.zip 
+rm 691a9849d6f6ac21bf952283af5d5574-a2cdb7d9d4c2ca9c1180a256f5a804eb5f68391c.zip 
+l
+cd 691a9849d6f6ac21bf952283af5d5574-a2cdb7d9d4c2ca9c1180a256f5a804eb5f68391c/
+l
+mv getPinterestBoardPins.py ../
+l
+up
+rm 691a9849d6f6ac21bf952283af5d5574-a2cdb7d9d4c2ca9c1180a256f5a804eb5f68391c/
+l
+nano getPinterestBoardPins.py 
+mv getPinterestBoardPins.py getPinterestBoardPins_Spanish.py 
+l
+rmdir 691a9849d6f6ac21bf952283af5d5574-a2cdb7d9d4c2ca9c1180a256f5a804eb5f68391c/
+l
+cp getPinterestBoardPins_Spanish.py getPinterestBoardPins.py 
+nano getPinterestBoardPins_.py 
+nano getPinterestBoardPins.py 
+nano getPinterestBoardPins.py 
+l
+python3 getPinterestBoardPins_Spanish.py 
+python getPinterestBoardPins_Spanish.py 
+nano getPinterestBoardPins_Spanish.py 
+pip install urllib
+pip3 install urllib
+sudo pip3 install urllib
+sudo pip3 install request
+python getPinterestBoardPins_Spanish.py 
+sudo pip3 install urllib2
+sudo pip install urllib2
+pip install --upgrade pip
+sudo pip install urllib2
+pip install urllib2
+nano getPinterestBoardPins_Spanish.py 
+python3 getPinterestBoardPins_Spanish.py 
+nano getPinterestBoardPins_Spanish.py 
+python3 getPinterestBoardPins_Spanish.py 
+python3
+python3 getPinterestBoardPins_Spanish.py 
+cd \~/Pictures/Pinterest/Spanish/
+gallery-dl https://www.pinterest.com/kevinjlausen/spanish/
+pwd
+l
+pwd
+cd ~/Pictures/Pinterest/
+md geek_stuff
+cd geek_stuff/
+gallery-dl https://www.pinterest.com/kevinjlausen/geek_stuffs/
+du
+.3
+l
+pwd
+.2
+..
+cd Pictures/Pinterest/
+gallery-dl https://www.pinterest.com/kevinjlausen/survival/\
+gallery-dl https://www.pinterest.com/kevinjlausen/survival/
+gallery-dl https://www.pinterest.com/kevinjlausen/survival/
+gallery-dl https://www.pinterest.com/kevinjlausen/survival/
+ipython3
+l
+cd Videos/YT_tmp/tmp/
+youtube-dl -if 18 https://youtu.be/Sfuyz9lxE0s
+pgrep website
+cd ~/Videos/YT_tmp/Linux/TheUrbanPenguin/
+l
+cd LearningPerl/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dtMy-fMCKfH2_BgdQIU-XRZ
+cd ../Ruby/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dtILuRqIfooOqAmyJ17RARB
+cd ../sedAwk/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dunxo5w2Fef_OOPlRl7AVux
+cd ../Bash_scripting/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dsi-B9c4AUuh3En_nK5ypkS
+cd ../nmap/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8duviZ9uo83DOUFPVvstPFPv
+cd ../RaspberryPi/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dt0jws4PKYBzejl-xRywjRG
+cd ../Vim/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dt0jws4PKYBzejl-xRywjRG
+https://www.youtube.com/playlist?list=PLtGnc4I6s8dvg9ZKu1dXcMXPTy3JlDBAu
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dvg9ZKu1dXcMXPTy3JlDBAu
+cd ../RH124/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dt1uVYgbFbI7YvdpXDDkhF5
+cd ../PuppetConfigMgmt/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dvXvxWxo7mQJkk9jRIXe2Rt
+cd ../LPIlinuxEssentials/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dssa8hF4yMTAa4BrSJCSwux
+cd ../MongoDB/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dt826U3Mz8SqCvkYD08JQx4
+cd ../Docker/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dvRP5fvPsXNsSkPS-J-As4v
+cd ../RH254/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8du64r2k6g0kU77APSXPJaBJ
+cd ../lpic2
+cd ../
+l
+cd LPIC-2/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8duKXPypO75QPvD4ZsmXpYc2
+cd ../LPIC-3
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dub0EUnk5d3axtbRDf0GSRd
+cd
+cd Videos/YT_tmp/Linux/TheUrbanPenguin/Python/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLtGnc4I6s8dumfH-x2acFlGalC9ZjDmYU
+sudo apt update && sudo apt upgrade -y
+cd ../../../
+md DiscoveryScienceSeeker
+cd DiscoveryScienceSeeker/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL6uC-XGZC7X666hQK48EbubpyskusnWjF
+python3
+cd
+cd Pictures/
+md Pinterest/Spanish
+l
+cd Pinterest/Spanish/
+l
+python3
+ipython3
+cd Pinterest/Spanish/cd
+cd
+sudo apt remove ipython3
+sudo apt remove ipython
+sudo apt autoremove 
+pip3 install ipython
+sudo pip3 install ipython
+ipython3 --version
+ipython3
+x
+cd Documents/
+gallery-dl http://readcomiconline.to/Comic/Ninjak-Vs-the-Valiant-Universe/Issue-1?id=128593
+sudo apt remove brackets atom 
+sudo apt remove brackets atom pycharm-community 
+snap find pycharm
+sudo snap install pycharm-community --classic
+l
+cd gallery-dl/readcomiconline/Ninjak\ Vs.\ the\ Valiant\ Universe/
+l
+cbx
+l
+sudo snap install pycharm-community --classic
+cd
+sudo snap install pycharm-community --classic
+palemoon --help
+x
+ipython3 cmd -h
+ipython3 cmd -h | less
+x
+python3
+x
+ipython3 --history
+ipython3 --banner no
+ipython3 --banner=no
+ipython3 --banner-no
+ipython3 --no-banner
+x
+l
+rename -v '-Youtube.Red-HDTV//' *
+rename -v 's/-Youtube.Red-HDTV//' *
+mediainfo-gui Lifeline-S01E01-In.33.Days.Youll.Die.mp4 
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-4?id=13995
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-5?id=14006
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-6?id=14011
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-6?id=14011
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-7?id=14012
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-8?id=14049
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-8?id=14049
+http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-10?id=13941
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-9?id=14013
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-10?id=13941
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-12?id=13945
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-13?id=13947
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-14?id=13949
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-15?id=13951
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-16?id=13953
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-17?id=13955
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-18?id=13957
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-19?id=13958
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-20?id=13962
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-21?id=13963
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-22?id=13965
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-23?id=13968
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-24?id=13970
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-25?id=13972
+gallery-dl /media/zim/MyStuffs/TV3/Vikings S01 Complete Season 1 EXTENDED
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-26?id=13974
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-27?id=13975
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-28?id=13977
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-29?id=13979
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-30?id=13983
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-31?id=13985
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-32?id=13987
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles
+ls gallery-dl/readcomiconline/Teenage\ Mutant\ Ninja\ Turtles\ \(2011\)/
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-31?id=13985
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-31?id=13985
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-31?id=13985
+swprst
+cd ~/Documents/
+gallery-dl http://readcomiconline.to/Comic/Teenage-Mutant-Ninja-Turtles/Issue-31?id=13985
+ipython3 ~/.ipython/profile_default/ipython_config.py
+ipython3 ~/.ipython/profile_default/ipython_config.py
+nano ~/.ipython/profile_default/ipython_config.py
+ipython3 
+nano ~/.ipython/profile_default/ipython_config.py
+ipython3 
+nano ~/.ipython/profile_default/ipython_config.py
+ipython3 
+nano ~/.ipython/profile_default/ipython_config.py
+ipython3 
+nano ~/.ipython/profile_default/ipython_config.py
+ipython3 
+x
+ipython
+ipython3
+ipython3
+x
+cd Videos/YT_tmp/
+ls
+ls -d
+md derekBanas
+cd derekBanas/
+md {LearnHow2programInOneVideo,Django,git,how2makeAndroidApps,AndroidDevelopment4beginers,kivy,TkinterPython,assembly,electroinics,angularJS,nodeJS,coffeeScript,mongoDB,jQuerry,javaScript,css,inkscape,java,webServices,how2layoutAwebsite,javaAlgorithms,designPatterns,ajax,html,xml,phpSecurity,regex,uml,wordPressTheme,C,Python2.7,php,codeRefactoring,negotiation,xml_tutorial,marketing,SQL,CSS_tutorial,HTML_tutorial,personalityTest,SQLlite3,Python,RubyOnRails,SalesTechniques,Psychology}
+cd LearnHow2programInOneVideo/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSX7fVd4OUFp_ODd86H0ZIY
+cd ..
+md seekerScienceVideos
+cd seekerScienceVideos/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL6uC-XGZC7X666hQK48EbubpyskusnWjF
+up
+ls
+mv -rfv seekerScienceVideos/ ../
+mv -Rfv seekerScienceVideos/ ../
+cd ../tmp/
+youtube-dl -if 18 https://www.youtube.com/watch?v=gSV1jWQpMZY&index=17&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=zi9OIxXVZtE&index=19&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=NrpN4zu_IrM&index=20&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=G3gJ0KlWwzI&index=22&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=qg8SOKLS5QI&index=23&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=qg8SOKLS5QI&index=23&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=KGsONyMyrNE&index=24&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=AJnFw84Fa3E&index=25&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=x27hsbiqdP8&index=26&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=u7MUk_j0tG8&index=27&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=dvj-GPQWNTg&index=28&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=S294zRodS_4&index=29&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=Ii17NMHS4YM&index=30&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=NQ9txYZpYKo&index=32&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=NQ9txYZpYKo&index=32&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=vLlVZHiJnwc&index=33&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=-oCQn2VkStI&index=34&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=mtHilmUa69M&index=35&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=D7hqgL_0ITg&index=36&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=8-smKhy0ftQ&index=38&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=jAhdM9A3wDQ&t=14s&index=2&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=wv9FbhBy3N0&index=3&list=PL3D3E46127C2DCD7D
+sudo apt update && sudo apt upgrade -y
+x
+x
+gallery-dl http://readcomiconline.to/Comic/Justice-League-Mighty-Morphin-Power-Rangers/Issue-6?id=122319
+l
+cd gallery-dl/readcomiconline/
+l
+cd Justice\ League_Mighty\ Morphin\'\ Power\ Rangers/
+l
+cbx
+l
+mv 006.cbz ../../../
+cd3
+cd ../../../
+exit
+cd OSCshellRCs/.BASHrc/.aliases/PKG_aliases/
+l
+up
+l
+cat git.aliases 
+nano git.aliases 
+ls
+nano single.char.aliases 
+nano nt.gnu.aliases 
+cd ~/Videos/YT_tmp/derekBanas/
+cd Django/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSMqZiTTsAC7C8Ypp81Jt6D
+cd ../TkinterPython/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSj3Nn_zeqWFnBusqvsjMqF
+cd ../mongoDB/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvRfdt8_W0dV311Xa8SayfCY
+cd ../jQuerry/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL3877C5434C042349
+cd ../javaScript/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLBA965A22D89CF13B
+cd ../electroinics/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvTVx-OeaqONkqFVpXvFBNR-
+cd ../css
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL07454EA7FF8D28AB
+cd ../how2makeAndroidApps/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSPjWpLPFEfOCbezi6vATIh
+cd ../inkscape/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo
+cd ../kivy/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvTAZ-OcNIXe05srJRXaJRd9
+cd ../assembly/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvQu9IwUcpn8KOZsOvoHx8sU
+cd ../nodeJS/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD
+cd ../angularJS/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvRo7634CgU8vyD_NPtODwjE
+cd ../coffeeScript/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvQGEALDnJA3nzxs-75HXOkR
+cd ../java
+l
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLE7E8B7F4856C9B19
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLE7E8B7F4856C9B19 --playlist-start 22
+cd ../webServices/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvTYlvpEp3G4cUde-eux_6Pi
+cd ../how2layoutAwebsite/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvT59FVZJeJtVUr3h7PluW6Q
+cd ../javaAlgorithms/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvReUrWr94U-ZMgjYTQ538nT
+cd ~/Videos/YT_tmp/tmp/
+youtube-dl -if 18 https://www.youtube.com/watch?v=GEyDkd6DS8c&list=PL3D3E46127C2DCD7D&index=16
+youtube-dl -if 18 https://www.youtube.com/watch?v=VtXNIy_noWg&list=PL3D3E46127C2DCD7D&index=17
+youtube-dl -if 18 https://www.youtube.com/watch?v=cz9q2xa9Wkw&list=PL3D3E46127C2DCD7D&index=18
+youtube-dl -if 18 https://www.youtube.com/watch?v=cz9q2xa9Wkw&list=PL3D3E46127C2DCD7D&index=18
+youtube-dl -if 18 https://www.youtube.com/watch?v=zouPoc49xbk&list=PL3D3E46127C2DCD7D&index=19
+youtube-dl -if 18 https://www.youtube.com/watch?v=zouPoc49xbk&list=PL3D3E46127C2DCD7D&index=19
+youtube-dl -if 18 https://www.youtube.com/watch?v=sNgiYM8e5iE&list=PL3D3E46127C2DCD7D&index=20
+youtube-dl -if 18 https://www.youtube.com/watch?v=sNgiYM8e5iE&list=PL3D3E46127C2DCD7D&index=20
+youtube-dl -if 18 https://www.youtube.com/watch?v=rD9Wr3ZV4L8&list=PL3D3E46127C2DCD7D&index=21
+youtube-dl -if 18 https://www.youtube.com/watch?v=xtUY5ztH-TA&list=PL3D3E46127C2DCD7D&index=22
+youtube-dl -if 18 https://www.youtube.com/watch?v=LE21KTOmp9w&list=PL3D3E46127C2DCD7D&index=23
+youtube-dl -if 18 https://www.youtube.com/watch?v=S51egtKiwbo&list=PL3D3E46127C2DCD7D&index=24
+youtube-dl -if 18 https://www.youtube.com/watch?v=i1fThdPbAEA&list=PL3D3E46127C2DCD7D&index=1&t=2s
+youtube-dl -if 18 https://www.youtube.com/watch?v=qMALm1VthGY&list=PL3D3E46127C2DCD7D&index=5
+youtube-dl -if 18 https://www.youtube.com/watch?v=FIKXxQEkGCo&list=PL3D3E46127C2DCD7D&index=6
+youtube-dl -if 18 https://www.youtube.com/watch?v=82_bPWyrPFc&list=PL3D3E46127C2DCD7D&index=8
+youtube-dl -if 18 https://www.youtube.com/watch?v=dXNllO79_68&list=PL3D3E46127C2DCD7D&index=11
+youtube-dl -if 18 https://www.youtube.com/watch?v=BcPA1kmekyo&list=PL3D3E46127C2DCD7D&index=9
+youtube-dl -if 18 https://itsfoss.com/goobuntu-glinux-google/
+youtube-dl -if 18 https://www.youtube.com/watch?v=5pb53S5_rUE&index=7&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=MICQb4QW448&index=10&list=PL3D3E46127C2DCD7D
+youtube-dl -if 18 https://www.youtube.com/watch?v=ZgdANNc6sLI&index=8&list=PL3D3E46127C2DCD7D
+cd /keybase/
+git clone keybase://private/kjlw99/Youtube_playlist_manager
+md Youtube_playlist_manager
+git clone keybase://private/kjlw99/Youtube_playlist_manager
+cd ~/Public/
+git clone keybase://private/kjlw99/Youtube_playlist_manager
+l
+ipython
+ipython
+ipython
+ipython
+ipython
+ipython
+x
+killall steam
+sudo apt update
+sudo apt upgrade 
+x
+md temporary
+find ./ -mindpeth -name *.pdf,*.epub,*.mobi
+find ./ -mindepth -name *.pdf,*.epub,*.mobi
+find ./ -mindepth 2 -name *.pdf,*.epub,*.mobi
+find ./ -mindepth 2 -name *.pdf
+find -mindepth 2 -name *.pdf
+find -mindepth 2 ./ -name *.pdf
+find ./ -mindepth 2  -name *.pdf
+find -mindepth 2  -name "*.pdf"
+cd temporary/
+md tmp
+find ./ -mindepth 2  -name "*.pdf,*.epub,*.mobi"
+find ./ -mindepth 2  -name "*.pdf"
+find ./ -mindepth 2  -name "*.pdf" -exec mv {} ./tmp/ \;
+https://www.youtube.com/watch?v=szfs14Pn8dY&list=PL3D3E46127C2DCD7D&index=2
+l
+cd tmp/
+ls "*isaac*"
+ls
+ls isaac
+ls *isaac*
+find ./ -name "*isaac asimov*"
+find ./ -name "*isaac asimov*" -exec {} ../isaac\ asimov/ \;
+find -name "*.pdf" -exec mv {} ../temporary/ \;
+find -name "*.pdf" 
+l
+find -mindepth 2 -name "*.pdf" 
+sudo iotop
+sudo iotop
+sudo iotop
+sudo iotop -p 12271
+sudo iotop -p 12271
+find ./ -mindepth 2 -name "*.pdf" -exec mv {} ../ \;
+iotop
+sudo iotop
+sudo iotop -p 6090
+sudo iotop
+pgrep udisksd
+sudo iotop -p 3383
+ls -a
+ipython
+man compgen
+compgen -c ls
+compgen -d /e
+compgen -A /e
+compgen -A 
+lsblk
+man fsck
+man fsck
+sudo fsck -r -v /media/zim/Backups
+sudo fsck -r -v /dev/sdc1
+cd Videos/YT_tmp/derekBanas/
+l
+cd ajax/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLE0071B4091E8948D
+cd ../html
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL82EBDA7BEB6BD571
+cd ../xml
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLBB413675AFBDC1F4
+cd ../phpSecurity/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL2407F4EE0530B251
+cd ../uml/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+cd ../wordPressTheme/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PL221702A605CAADA9
+cd ../c
+ls
+cd ..
+l
+cd C
+l
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7
+cd ../Python2.7/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLA175E8A1816CD64B
+cd ~/Videos/YT_tmp/
+l
+md SQLalchemy
+cd SQLalchemy/
+youtube-dl -if 18 https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW
+up
+cd tmp/
+youtube-dl -if 18 https://www.youtube.com/watch?v=orYbXHm_UXY&list=WL&index=1
+youtube-dl -if 18 https://www.youtube.com/watch?v=PxiWPWsvMXw&list=WL&index=3
+youtube-dl -if 18 https://www.youtube.com/watch?v=OelKSd2nL5w&list=WL&index=4
+youtube-dl -if 18 https://www.youtube.com/watch?v=aa5MLKBlCU0&list=WL&index=5
+youtube-dl -if 18 https://www.youtube.com/watch?v=aKq6r2QggMk&list=WL&index=8
+youtube-dl -if 18 https://www.youtube.com/watch?v=sucMZBCQBzA&list=WL&index=7
+youtube-dl -if 18 https://www.youtube.com/watch?v=HWxKKS2AtQU&list=WL&index=6
+youtube-dl -if 18 https://www.youtube.com/watch?v=51RpDZKShiw&list=WL&index=11
+youtube-dl -if 18 https://www.youtube.com/watch?v=woKYyhLCcnU&list=WL&index=10
+youtube-dl -if 18 https://www.youtube.com/watch?v=mKBDDZN8Y9Y&list=WL&index=9
+youtube-dl -if 18 https://www.youtube.com/watch?v=cpTeQJiQnog&list=WL&index=2
+iotop
+sudo iotop
+kill -9 18530
+pgrep files
+sudo iotop
+ping 8.8.8.8
+cd Videos/YT_tmp/tmp/
+youtube-dl -f 18 https://www.youtube.com/playlist?list=PLBuf6_kB0zL-vDUazDl4yPBlB2KLcnMS1
+youtube-dl -f 18 https://www.youtube.com/playlist?list=PLBuf6_kB0zL-vDUazDl4yPBlB2KLcnMS1
+youtube-dl -f 18 https://www.youtube.com/playlist?list=PLBuf6_kB0zL-vDUazDl4yPBlB2KLcnMS1&disable_polymer=true
+xsh -
