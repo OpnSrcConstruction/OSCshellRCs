@@ -10,3 +10,7 @@ fi
 if [ -f ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/aliases.pointer
 fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.functions/.functions.main.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.functions/.functions.main.pointer
+fi
