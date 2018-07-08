@@ -1,78 +1,114 @@
-# handfull of handy 2-3 charrecter git vcs aliases.
+# handfull of 20 handy 2-3 charrecter git dvcs(distributed version control system) aliases.
 # gin == git init
 # gc  == git clone
 # gf  == git fetch
 # gpl == git pull
-# gb  == git branch
-# gbr == git checkout -b
+# gb  == git branch ?<branchname>
+# gbr == git checkout -b <branchname>
 # gs  == git status
-# gad == git add
-# grm == git rm
-# gct == git commit -a -m
+# gad == git add <dir(s)|file(s)>
+# gsa == git submodule add <dir(s)|file(s)> <name>
+# grm == git rm <dir(s)|file(s)>
+# grc == git rm -f --cached <dir(s)|file(s)>
+# gct == git commit -a -m <"descriptive commit message">
 # gcm == git checkout master
-# gm  == git merge
-# gpu == git push 
+# gm  == git merge <branch of changes to merge into current branch>
+# gpu == git push ?<specific remote branch>
 # glg == git log
-# gbd == git brranch -d
-# gd  == git diff
+# gbd == git branch -d
+# gd  == git diff 
 # grh == git reset --hard <snapshotID>
+# gcl == git clear
 
 # git init -- Initiates a repository
-alias gin='git init'''
+# syntax: gin
+alias gin='git init'
 
 # git clone <url.git> -- Downloads remote repository.
+# syntax: gc <url>
 alias gc='git clone'
 
 # git fetch -- Fetches changes, from an 
-# origin/<?branch> & attempts 2 merge.
+# origin/<?branch> & attempts 2 merge them.
+# syntax: gf
 alias gf='git fetch'
 
-# git pull -- Gets changes from remote repo., but
+# git pull -- Gets changes from remote repo. &/or branch, but
 # doesn't attempt a merge.
+# syntax: gpl
 alias gpl='git pull'
 
 # git branch -- Checks available branches.
-alias gb='git branch' # optional <branchName> 2 create branch
+# Syntax: gb (lists branches available) | gb <branchname> (creates a new branch)
+alias gb='git branch'
 
 # git checkout -b -- Creates a branch and switches to it.
-alias gbr='git checkout -b'; # <branch-name>
+# syntax: gbr <branchname>
+alias gbr='git checkout -b';
 
 # git status -- Shows staged/un-staged changes.
+# syntax: gs
 alias gs='git status'
 
 # git add -- Adds files to a stage,
 # to prepare for a commit action.
+# syntax: gad <dir(s)|file(s)>
 alias gad='git add'
 
+# for adding a git repository into a git repo.
+# This assumes the dir to add, was cloned from a git repo.
+# syntax: gsa <url> <Name>
+alias gsa='git submodule add'
+
 # git rm -- Removes files frm a staged point.
+# syntax: grm <dir(s)|file(s)>
 alias grm='git rm'
 
+# For removing a cloned git repo.,
+# that was accidentally as a regular directory of personel code.
+# syntax: grc <dir>
+alias grc='git rm -f --cached'
+
 # git commit -a -m --  Commits recent changes.
+# syntax: gct <"descriptive commit message">
 alias gct='git commit -a -m'
 
 # git checkout master -- Moves the HEAD pointer,
 # to the master branch.
+# syntax: gcm
 alias gcm='git checkout master'
 
 # git merge -- Merges changes from named branch to
-# current branch.
+# the current branch.
+# syntax: gm <branch of changes to merge into current branch>
 alias gm='git merge'
 
 # git log -- Shows an index log,
 # of the local repo.
+# syntax: glg
 alias glg='git log'
 
 # git push -- Pushes local changes,
 # to the origin; & master branch by default.
-alias gpu='git push origin' # <master/branchName>
+# syntax: gpu (pushes auto. to origin) |
+# gpu <branchname> (pushes changes to a specific remote branch)
+alias gpu='git push origin'
 
 # git branch -d -- Removes a local branch.
-alias gbd='git branch -d' # <branchName>
+# syntax: gbd <branchname>
+alias gbd='git branch -d'
 
-# git diff -- Show changes between the working tree and the index or a tree, \
-# changes between the index and a tree, changes between two trees, \
+# git diff -- Show changes between the working tree and the index or a tree,
+# changes between the index and a tree, changes between two trees,
 # changes between two blob objects, or changes between two files on disk.
+# syntax: gd ?<branch|object> | <branch|object>
 alias gd='git diff'
 
-# git reset --hard <referenceID> -- Hard-resets, to a previous snapshot of a point in time. 
-alias grh='git reset --hard' # <snapsotID>
+# git reset --hard <referenceID> -- Hard-resets,
+# to a previous snapshot of a point in time. 
+# syntax: grh <snapshotID>
+alias grh='git reset --hard'
+
+# clears untracked files from a git repository.
+# syntax: gcl
+alias gcl='git clear'
