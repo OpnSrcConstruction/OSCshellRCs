@@ -16,4 +16,3 @@ alias rld='source ~/.bashrc'
 
 # Alias to reset the swap memory.
 alias swprst='sudo swapoff -a && sudo swapon -a'
-

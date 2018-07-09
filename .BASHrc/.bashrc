@@ -4,6 +4,12 @@
 # than a huge .bashrc and easier configuring for varied
 # environments.
 
+# added Sunday, July 08 2018 @ 06:52:22 PM
+# sets a ascii system info on first tty launch
+neofetch
+
+
+
 if [ -f ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer
 fi
