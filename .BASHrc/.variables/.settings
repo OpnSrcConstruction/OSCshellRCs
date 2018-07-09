@@ -1,0 +1,13 @@
+# Sets the default shell editor to nano.
+export EDITOR=nano
+# Adds /usr/local/bin to the path.
+export PATH=$PATH:/usr/local/bin
+
+# enable bash/apt autocompletion by default
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+. /etc/bash_completion
+fi
+
+# Settings to enable the long running command shell aliases.
+source /etc/profile.d/undistract-me.sh
+

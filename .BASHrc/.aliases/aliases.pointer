@@ -26,3 +26,8 @@ fi
 if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/PKGaliases.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/PKGaliases.pointer
 fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/general.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/general.aliases
+fi
+

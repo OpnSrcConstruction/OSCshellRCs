@@ -1,0 +1,15 @@
+# alias set to configure cat to the hyper-powered bat command.
+# bat has line numbering, auto-paging, syntax-highlighting, and it's community/OSsoftware.
+# done Tuesday, July 03 2018 at 03:58:15 PM
+alias bat='bat --theme=TwoDark'
+alias cat='bat'
+
+# Alias for getting the local boston weather.
+alias wtrb='curl wttr.in/boston'
+
+# Alias set to reload the bash shell in 4 key-strokes.
+alias rld='source ~/.bashrc'
+
+# Alias to reset the swap memory.
+alias swprst='sudo swapoff -a && sudo swapon -a'
+

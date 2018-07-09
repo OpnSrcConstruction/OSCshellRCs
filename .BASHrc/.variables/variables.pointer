@@ -4,8 +4,12 @@
 
 
 # Simple_prompt generated/modified from bashrcgenerator.
-
 if [ -f ~/OSCshellRCs/.BASHrc/.variables/.prompt ]; then
     . ~/OSCshellRCs/.BASHrc/.variables/.prompt
+fi
+
+# General settings for my bash shell.
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/.settings ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/.settings
 fi
 

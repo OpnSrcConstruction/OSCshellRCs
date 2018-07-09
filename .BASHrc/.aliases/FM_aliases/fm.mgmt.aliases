@@ -33,3 +33,27 @@ alias l='ls -CF'
 ###
 ##
 #
+# alias set to remind me to use the trash-put command instead of the rm command
+# set by kjlw99 on Friday, July 06 2018 @ 10:18:38 PM
+alias rm='echo "Please use the trash-put command instead or precede rm with a (\)back-slash"; false'
+alias t='trash'
+alias tp='trash-put'
+alias tl='trash-list'
+alias te='trash-empty'
+alias tr='trash-restore'
+alias trm='trash-rm'
+###
+##
+#
+# Alias set to auto. turn a comic dir into a .cbz & delete the source directory.
+alias cbx='cbxmanager.py * && find ./ -maxdepth 1 -type d -exec rm -rf {} \; 2>/dev/null'
+#Alias set, for getting the converted PDF's from calibre into the other PDF folder.
+alias pdfc='find -mindepth 2 -type f -name "*.pdf" -exec mv {} ../Documents/other/PDF/ \;'
+# The following 2 aliases are for moving epub/mobi in the Documents folder to their perspective other dir.
+alias epb='find -maxdepth 1 -type f -name "*.epub*" -exec mv {} other/EPUB/ \;'
+alias epb='find -maxdepth 1 -type f -name "*.mobi*" -exec mv {} other/MOBI/ \;'
+# Alias for keeping du from being recursive.
+alias d1='du -d 1'
+# Alias to find .part files in the current working directory.
+# Helps find skipped youtube videos.
+alias prt='ls *part'
