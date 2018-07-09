@@ -4,12 +4,17 @@
 
 
 # Simple_prompt generated/modified from bashrcgenerator.
-if [ -f ~/OSCshellRCs/.BASHrc/.variables/.prompt ]; then
-    . ~/OSCshellRCs/.BASHrc/.variables/.prompt
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/.bash.prompt ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/.bash.prompt
 fi
 
 # General settings for my bash shell.
-if [ -f ~/OSCshellRCs/.BASHrc/.variables/.settings ]; then
-    . ~/OSCshellRCs/.BASHrc/.variables/.settings
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/.bash.general.settings ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/.bash.general.settings
+fi
+
+# General settings for my bash shell.
+if [ -f ~/OSCshellRCs/.BASHrc/.variables/.bash.options ]; then
+    . ~/OSCshellRCs/.BASHrc/.variables/.bash.options
 fi
 

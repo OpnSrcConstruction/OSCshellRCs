@@ -45,8 +45,6 @@ alias trm='trash-rm'
 ###
 ##
 #
-# Alias set to auto. turn a comic dir into a .cbz & delete the source directory.
-alias cbx='cbxmanager.py * && find ./ -maxdepth 1 -type d -exec rm -rf {} \; 2>/dev/null'
 #Alias set, for getting the converted PDF's from calibre into the other PDF folder.
 alias pdfc='find -mindepth 2 -type f -name "*.pdf" -exec mv {} ../Documents/other/PDF/ \;'
 # The following 2 aliases are for moving epub/mobi in the Documents folder to their perspective other dir.

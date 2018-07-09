@@ -1,0 +1,7 @@
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/ipython.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/ipython.aliases
+fi
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/general.python.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/general.python.aliases
+fi

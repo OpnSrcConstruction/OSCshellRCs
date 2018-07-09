@@ -1,0 +1,10 @@
+# created on Wednesday February 28 @ 1:35 PM by kjlw99
+
+# Aliases to help with my Python/I-Python
+# The following profiles were created, to ease my transition into the I-Python shell.
+# Custom profile. Created so I can have maximum comfort
+alias ipyc='ipython --profile=custom'
+# Debug profile. Created for the purpose of debuging.
+alias ipyd='ipython --profile=debug'
+# Default profile. Created to see how the default I-Python reacts.
+alias ipy='ipython'

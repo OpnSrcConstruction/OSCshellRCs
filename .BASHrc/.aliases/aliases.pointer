@@ -31,3 +31,6 @@ if [ -f ~/OSCshellRCs/.BASHrc/.aliases/general.aliases ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/general.aliases
 fi
 
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/PythonAliases.pointer ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/Python_aliases/PythonAliases.pointer
+fi

@@ -1,0 +1,2 @@
+# Alias to clean up, after the cbx Python script is called.
+alias cbx='cbxmanager.py * && find ./ -maxdepth 1 -type d -exec rm -rf {} \; 2>/dev/null'
