@@ -11,5 +11,7 @@ alias z='zsh'
 alias t='tcsh'
 alias p='powershell'
 alias i='ipython3'
+alias n=nano
 ###
 ##
+#
