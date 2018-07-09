@@ -31,4 +31,8 @@ alias nmNew='nmcli -tpm dev wifi connect'
 # Alias set to get my public IPaddress.
 # kjlw99 Monday, July 09 2018 @ 10:16:39 AM
 alias ipa='curl icanhazip.com'
-
+# Alternatives to icanhazip.com
+# http://ifconfig.me
+# http://ipecho.net/plain
+# http://ident.me
+# http://bot.whatismyipaddress.com
