@@ -8,7 +8,11 @@
 # sets a ascii system info on first tty launch
 neofetch
 
-
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
 
 if [ -f ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer ]; then
     . ~/OSCshellRCs/.BASHrc/bash_projectMain.pointer

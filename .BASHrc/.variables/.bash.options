@@ -11,7 +11,8 @@ shopt -s cdspell
 # if the directory name initially supplied does not exist. 
 shopt -s dirspell
 
-
+# append to the history file, don't overwrite it
+shopt -s histappend
 
 # If set, the pattern ‘**’ used in a filename expansion context will match all files and zero or more directories and subdirectories. 
 # If the pattern is followed by a ‘/’, only directories and subdirectories match.
@@ -23,3 +24,7 @@ shopt -s nocaseglob
 # If set, Bash matches patterns in a case-insensitive fashion when performing matching while executing case or [[ conditional commands, 
 # when performing pattern substitution word expansions, or when filtering possible completions as part of programmable completion. 
 shopt -s nocasematch
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
