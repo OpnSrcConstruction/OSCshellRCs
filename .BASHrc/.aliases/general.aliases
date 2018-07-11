@@ -6,7 +6,8 @@ alias cat='bat'
 
 # Installed exa from rust/cargo. The following alias sets exe to replace ls.
 # done by kjlw99 on Sunday, July 08 2018 @ 09:51:58 PM
-alias l=exa
+alias l='exa'
+alias ll='exa -lHhag --git'
 
 # Alias for getting the local boston weather.
 alias wtrb='curl wttr.in/boston'

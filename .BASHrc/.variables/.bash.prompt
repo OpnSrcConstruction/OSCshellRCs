@@ -1,3 +1,5 @@
+# force_color_prompt=yes
+
 # Simpler prompt generated from bashrcgenerator.com on July 2, 2017
 
 # export PS1="\s-\v_\u_\d_\T_\W_\$?:\n\\$\[$(tput sgr0)\]"
