@@ -8,6 +8,7 @@ alias cat='bat'
 # done by kjlw99 on Sunday, July 08 2018 @ 09:51:58 PM
 alias l='exa'
 alias ll='exa -lHhag --git'
+alias la='exa -a'
 
 # Alias for getting the local boston weather.
 alias wtrb='curl wttr.in/boston'
@@ -17,3 +18,7 @@ alias rld='source ~/.bashrc'
 
 # Alias to reset the swap memory.
 alias swprst='sudo swapoff -a && sudo swapon -a'
+
+# Aliases to colorize grep.
+# kjlw99 on Wednesday, July 11 2018 @ 01:04:56 PM.
+alias grep='grep --colour=auto'
