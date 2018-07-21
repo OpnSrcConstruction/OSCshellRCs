@@ -1,0 +1,30 @@
+# this is so I won't ever have to set manually bash case insensitivity again. 
+# Also a good place for any future bash options I feel I would need.
+# by kjlw99 on Monday, July 02 at 01:45:15 PM
+
+# shopt -s completion-ignore-case
+
+# corrects minor errors
+shopt -s cdspell
+
+# If set, Bash attempts spelling correction on directory names during word completion,
+# if the directory name initially supplied does not exist. 
+shopt -s dirspell
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# If set, the pattern ‘**’ used in a filename expansion context will match all files and zero or more directories and subdirectories. 
+# If the pattern is followed by a ‘/’, only directories and subdirectories match.
+shopt -s globstar
+
+# If set, Bash matches filenames in a case-insensitive fashion when performing filename expansion.
+shopt -s nocaseglob
+
+# If set, Bash matches patterns in a case-insensitive fashion when performing matching while executing case or [[ conditional commands, 
+# when performing pattern substitution word expansions, or when filtering possible completions as part of programmable completion. 
+shopt -s nocasematch
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize

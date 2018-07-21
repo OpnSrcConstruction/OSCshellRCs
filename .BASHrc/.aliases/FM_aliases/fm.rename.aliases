@@ -1,0 +1,5 @@
+# Alias to rename .jpeg files to .jpg extensions
+alias jpeg='rename -v -- "s/$/.jpg/" *'
+
+# alias to rename directories with spaces to under-scores
+alias sbspc='find ./ -name "* *" -execdir rename "s/\s/_/g" "{}" \;'

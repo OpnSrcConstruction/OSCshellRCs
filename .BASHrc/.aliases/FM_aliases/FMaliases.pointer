@@ -9,3 +9,7 @@ if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.mgmt.aliases ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.mgmt.aliases
 fi
 
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.rename.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/FM_aliases/fm.rename.aliases
+fi
+
