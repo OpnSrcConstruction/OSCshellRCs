@@ -1,0 +1,26 @@
+# created on Thursday, July 19 2018 @ 05:30:14 PM by kjlw99
+# The purpose of this alias file, is to make the nix-env easier to work with.
+# I found this pkg mgr through the tig gitHub repository.
+# I eventually found a bunch of packages included, that contain things I can only get
+# through app-images or source code format. Such as pidgin/purple plugins, wireguard, aegisub, freemind.....
+# I hope to eventually use nix-env to remove a bunch of uneeded debian/PPA repos, and slim down the 
+# amount of packages that will need to be upgraded from the Ubuntu repos.
+
+# install nix-env with the following one liner.
+# bash <(curl https://nixos.org/nix/install)
+
+# nix-env basics:
+# ne = nix-env
+alias ne='nix-env'
+# neh = nix-env --help
+alias neh='nix-env --help'
+# nei = nix-env --install
+alias nei='nix-env --install'
+# ner = nix-env --uninstall(remove)
+alias ner='nix-env --uninstall'
+# neu = nix-env --upgrade
+alias neu='nix-env --upgrade'
+# nqa = nix-env --query --available regex = '.*<description>.*'
+alias nqa='nix-env --query --available --description'
+# nqi = nix-env --query --installed = '.*<description>.*'
+alias nqi='nix-env --query --installed --description'

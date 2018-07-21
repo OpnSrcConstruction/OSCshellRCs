@@ -9,3 +9,8 @@ fi
 if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/dpkg.aliases ]; then
     . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/dpkg.aliases
 fi
+
+
+if [ -f ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/nix-env.aliases ]; then
+    . ~/OSCshellRCs/.BASHrc/.aliases/PKG_aliases/nix-env.aliases
+fi
