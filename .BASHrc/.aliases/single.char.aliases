@@ -9,10 +9,11 @@ alias h='history'
 alias f='fish'
 alias b='byobu'
 alias z='zsh'
-alias t='tcsh'
+alias T='tcsh'
 alias p='powershell'
 alias i='ipython3'
 alias n=nano
+alias v=vim
 ###
 ##
 #
